@@ -1,11 +1,13 @@
 var btnTranslate = document.querySelector("#btn-translator");
 
 var txtInput = document.querySelector("#txt-input");
-console.log(txtInput);
+var outputDiv = document.querySelector("#output");
+
+//outputDiv.innerText = "Rati deshmukh"
+
 
 btnTranslate.addEventListener("click", clickEventHandler)
 
 function clickEventHandler() {
-    console.log("Clicked");
-    console.log("input", txtInput.value);
+    outputDiv.innerText = "ajajajajaj " + txtInput.value;
 };
